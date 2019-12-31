@@ -18,7 +18,6 @@
 		DD9EFDD9239A5AD7007FF119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDD8239A5AD7007FF119 /* AppDelegate.swift */; };
 		DD9EFDDB239A5AD7007FF119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDDA239A5AD7007FF119 /* SceneDelegate.swift */; };
 		DD9EFDDD239A5AD7007FF119 /* WeatherForcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDDC239A5AD7007FF119 /* WeatherForcastController.swift */; };
-		DD9EFDE3239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDE1239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodeld */; };
 		DD9EFDE5239A5ADA007FF119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9EFDE4239A5ADA007FF119 /* Assets.xcassets */; };
 		DD9EFDF3239A5ADB007FF119 /* DubaiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDF2239A5ADB007FF119 /* DubaiTestTests.swift */; };
 		DD9EFDFE239A5ADB007FF119 /* DubaiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EFDFD239A5ADB007FF119 /* DubaiTestUITests.swift */; };
@@ -110,7 +109,6 @@
 		DD9EFDD8239A5AD7007FF119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9EFDDA239A5AD7007FF119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD9EFDDC239A5AD7007FF119 /* WeatherForcastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForcastController.swift; sourceTree = "<group>"; };
-		DD9EFDE2239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYMostPopularAssignment.xcdatamodel; sourceTree = "<group>"; };
 		DD9EFDE4239A5ADA007FF119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD9EFDE9239A5ADA007FF119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD9EFDEE239A5ADB007FF119 /* DubaiTestDubaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubaiTestDubaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,7 +225,6 @@
 				A20977DE23BA663B00A7EB51 /* LaunchScreen.storyboard */,
 				A20977DF23BA663B00A7EB51 /* Main.storyboard */,
 				DD9EFDE9239A5ADA007FF119 /* Info.plist */,
-				DD9EFDE1239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodeld */,
 			);
 			path = DubaiTest;
 			sourceTree = "<group>";
@@ -495,7 +492,6 @@
 				DD9EFDD9239A5AD7007FF119 /* AppDelegate.swift in Sources */,
 				DD9EFE2F239AA49D007FF119 /* ViewController+ Extensions.swift in Sources */,
 				DD9EFE42239AB318007FF119 /* NetworkAPIEnums.swift in Sources */,
-				DD9EFDE3239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodeld in Sources */,
 				DD9EFE46239AB35A007FF119 /* NetworkResponse.swift in Sources */,
 				DD9EFE0E239A663D007FF119 /* Observable.swift in Sources */,
 				DD9EFE6E239ABAAF007FF119 /* AppConstants.swift in Sources */,
@@ -845,19 +841,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DD9EFDE1239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DD9EFDE2239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodel */,
-			);
-			currentVersion = DD9EFDE2239A5AD7007FF119 /* NYMostPopularAssignment.xcdatamodel */;
-			path = NYMostPopularAssignment.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DD9EFDCD239A5AD7007FF119 /* Project object */;
 }
