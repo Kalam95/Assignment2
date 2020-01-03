@@ -6,7 +6,7 @@ This is an assignement asked by xebia to be done by me. i have made this git rep
 
 The project is about the List of newYour times most popular articles.
 
-you need to have xcode 11.2 in order to execute thsi project. once you get xcode you need to double click the .xcodeproject file and then you can runn it by pressing *cmd + R*
+you need to have xcode 11.3 in order to execute this project or with lower versions you need to change the deployement target of the app. once you get xcode you need to double click the .xcodeproject file and then you can runn it by pressing *cmd + R*
 # Initial view controller
 * Landing screen for the app where there is card view and user can sither search by city name or visit current city
 
